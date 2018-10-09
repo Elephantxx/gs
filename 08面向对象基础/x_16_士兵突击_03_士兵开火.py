@@ -40,7 +40,8 @@ class Soldier:
     def fire(self):
 
         # 1. 判断士兵是否有枪
-        if self.gun == None:
+        # if self.gun == None:
+        if self.gun is None:
             print("[%s] 还没有枪..." % self.name)
 
             return
